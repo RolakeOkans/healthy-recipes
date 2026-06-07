@@ -34,3 +34,52 @@
   justify-content: center;
   margin-top: 30px;
 }
+
+.card-button {
+  background-color: #2d6a4f;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.card-button:hover {
+  background-color: #74c69d;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .card {
+    width: 220px;
+  }
+
+  .cards-container {
+    gap: 10px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+}
