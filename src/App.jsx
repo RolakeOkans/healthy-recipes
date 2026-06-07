@@ -4,7 +4,7 @@ import Card from './components/Card'
 const App = () => {
   return (
     <div className="App">
-      <h1>🥗 Healthy Recipes That Dont Suck</h1>
+      <h1>🥗 Healthy Recipes That Don't Suck</h1>
       <h2>Discover and share nutritious meals for every lifestyle</h2>
       <div className="cards-container">
         <Card 
